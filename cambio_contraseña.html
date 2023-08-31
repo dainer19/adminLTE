@@ -72,7 +72,7 @@
               <div class="dropdown-divider"></div>
               
               <div class="dropdown-divider"></div>
-              <a href="index.html" class="dropdown-item dropdown-footer">Salir</a>
+              <a href="#" class="dropdown-item dropdown-footer">Salir</a>
             </div>
           </li>
          
@@ -81,92 +81,52 @@
 
         </nav>
 
-
-        
-<div class="container ">
-  <h2><b>perfil</b></h2><br>
-        <div class="card card-primary card-outline">
-            <div class="card-body box-profile">
-              <div class="text-center">
-                <img class="profile-user-img img-fluid img-circle" src="imagenes/images.png" alt="User profile picture">
-              </div>
-    
-              <h3 class="profile-username text-center">dainer alarcon</h3>
-    
-              <p class="text-muted text-center">Software Engineer</p>
-    
-              <ul class="list-group list-group-unbordered mb-3">
-                <li class="list-group-item">
-                  <b>Followers</b> <a class="float-right">1,322</a>
-                </li>
-                <li class="list-group-item">
-                  <b>Following</b> <a class="float-right">543</a>
-                </li>
-                <li class="list-group-item">
-                  <b>Friends</b> <a class="float-right">13,287</a>
-                </li>
-              </ul>
-    
-              <a href="cambio_contraseña.html" class="btn btn-primary btn-block"><b>cambiar contraseña</b></a>
+<center>
+        <div class="container">
+        <div class="login-box">
+            <div class="login-logo">
+              <a href="#"><b>Acueducto</b> LA JAGUA</a>
             </div>
-            <!-- /.card-body -->
-         </div><br>
-         <!--ajustes-->
-         <h2><b>configurar informacion</b></h2><br>
-         <div class="tab-pane" id="settings">
-          <form class="form-horizontal">
-            <div class="form-group row">
-              <label for="inputName" class="col-sm-2 col-form-label">Name</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputName" placeholder="Name">
+            <!-- /.login-logo -->
+            <div class="card">
+              <div class="card-body login-card-body">
+                <p class="login-box-msg">Estás a un paso de tu nueva contraseña, recupera tu contraseña ahora.</p>
+          
+                <form action="login.html" method="post">
+                  <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Password">
+                    <div class="input-group-append">
+                      <div class="input-group-text">
+                        <span class="fas fa-lock"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+                    <div class="input-group-append">
+                      <div class="input-group-text">
+                        <span class="fas fa-lock"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary btn-block">Cambiar la contraseña</button>
+                    </div>
+                    <!-- /.col -->
+                  </div>
+                </form>
+          
+                <p class="mt-3 mb-1">
+                  <a href="dashboard-inicio.html">Login</a>
+                </p>
               </div>
+              <!-- /.login-card-body -->
             </div>
-            <div class="form-group row">
-              <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputName2" class="col-sm-2 col-form-label">Name</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputName2" placeholder="Name">
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputExperience" class="col-sm-2 col-form-label">Experience</label>
-              <div class="col-sm-10">
-                <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputSkills" class="col-sm-2 col-form-label">Skills</label>
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="offset-sm-2 col-sm-10">
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="offset-sm-2 col-sm-10">
-                <button type="submit" class="btn btn-danger">Submit</button>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
-        <!--fin ajustes-->
- </div>
+    </center>
 
-
-
- 
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Logotipo -->
     <a href="index3.html" class="brand-link">
